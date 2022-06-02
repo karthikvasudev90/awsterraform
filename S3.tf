@@ -3,6 +3,6 @@ resource "aws_s3_bucket" "testbucket" {
 
   tags = {
     "Env": "Dev",
-    "Video": "CloudQuickLabs"
+    "purpose": "test"
   }
 }
